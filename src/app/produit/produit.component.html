@@ -1,1 +1,15 @@
-<p>produit works!</p>
+<h1>Nos <strong style="color: red;">Produit </strong></h1>
+
+<div class="container">
+
+<div class="contenu">
+
+    <div class="carte" *ngFor="let carte of carts;">
+    <p>{{carte.nom}}</p>
+    <img src={{carte.image}} />
+    </div>
+     </div>
+
+</div>
+
+

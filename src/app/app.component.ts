@@ -8,6 +8,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ProposComponent } from './propos/propos.component';
 import { ServiceComponent } from './service/service.component';
 import { ProduitComponent } from './produit/produit.component';
+import { TemoingnageComponent } from './temoingnage/temoingnage.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -21,7 +22,8 @@ import { ProduitComponent } from './produit/produit.component';
         AccueilComponent,
         ProposComponent,
         ServiceComponent, 
-        ProduitComponent
+        ProduitComponent,
+        TemoingnageComponent
       ], 
  templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
