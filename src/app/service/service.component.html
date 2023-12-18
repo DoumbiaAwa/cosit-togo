@@ -1,0 +1,16 @@
+<h1>Nos <strong style="color: red;">Services </strong></h1>
+<div class="container">
+<!-- les cards services -->
+<!-- <div class="contenu"   [style.transform]="'translateX(' + (-33 * (index % 3)) + '%)'">
+    <div class="card" *ngFor="let carte of cartes; let i = index" style="flex-basis: 33%;">
+        <img src="{{carte.image}}" class="pc">
+        <p>{{carte.texte}}</p>
+      </div> -->
+
+      <div class="contenu"   [style.transform]="'translateX(' + (-33 * (index % 3)) + '%)'">
+        <div class="card" *ngFor="let carte of cartes; let i = index" style="flex-basis: 33%;">
+            <img src="{{carte.image}}" class="pc">
+            <p>{{carte.texte}}</p>
+          </div>
+</div>
+</div>

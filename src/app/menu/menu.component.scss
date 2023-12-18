@@ -1,0 +1,29 @@
+.menu{
+    width: 1500px;
+// height: 800px;
+    height: 60px;
+    position: fixed;
+     display: flex;
+     background-color: white;
+     margin-top: -20px;
+     
+    }
+    .logo, img{
+    width:150px;
+    height: 50px;
+    margin-left: 10px;
+    }
+    ul{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 64px;
+        list-style: none;
+         margin-left: 40%;
+        cursor: pointer;
+        // max-width: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    
